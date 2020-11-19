@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/selenium.framework/target/maven-archiver/maven-archiver.iml" filepath="$PROJECT_DIR$/selenium.framework/target/maven-archiver/maven-archiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/selenium.framework/selenium.framework.iml" filepath="$PROJECT_DIR$/selenium.framework/selenium.framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/selenium.framework.demo/selenium.framework.demo.iml" filepath="$PROJECT_DIR$/selenium.framework.demo/selenium.framework.demo.iml" />
+    </modules>
+  </component>
+</project>

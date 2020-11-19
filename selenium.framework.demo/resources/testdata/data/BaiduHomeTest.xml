@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cases>
+	<case name="login_baidu">
+		<!--密码为空-->
+		<row>
+			<!--<data key="user" type="string" value="18600457156"/>-->
+			<data key="message" type="array" value="12|32|54" spilt="|"/>
+			<data key="password" type="string" value=""/>
+			<data key="message" type="string" value="请您输入密码"/>
+
+		</row>
+		<!--用户名为空-->
+		<row>
+			<data key="user" type="string" value=""/>
+			<data key="password" type="string" value="222222"/>
+			<data key="message" type="string" value="请您输入手机/邮箱/用户名"/>
+		</row>
+		<!--用户名和密码都为为空-->
+		<row>
+			<data key="user" type="string" value=""/>
+			<data key="password" type="string" value=""/>
+			<data key="message" type="string" value="请您输入手机/邮箱/用户名"/>
+		</row>
+	<!--用户名错误密码正确-->
+		<row>
+			<data key="user" type="string" value="15818697740"/>
+			<data key="password" type="string" value="nihuaiqing2237"/>
+			<data key="message" type="string" value="用户名或密码有误，请重新输入或找回密码"/>
+		</row>
+		<!--用户名正确密码错误-->
+		<row>
+			<data key="user" type="string" value="谷歌亦人身"/>
+			<data key="password" type="string" value="nihuaiqing223ss7"/>
+			<data key="message" type="string" value="用户名或密码有误，请重新输入或找回密码"/>
+		</row>
+		<!--用户名密码正确-->
+		<row>
+			<data key="user" type="string" value="15818697741"/>
+			<data key="password" type="string" value="liangfzh.814"/>
+			<data key="message" type="string" value=""/>
+		</row>
+	</case>
+</cases>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="BaiduHomeTest">
+
+        <classes>
+            <class name="selenium.framework.test.BaiduHomeTest">
+                <methods>
+                    <include name="login_baidu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="selenium.framework.report.HTMLReporter"/>
+        <listener class-name="selenium.framework.listener.SeleniumListener"/>
+        <listener class-name="selenium.framework.listener.SeleniumListenerAdapter"/>
+    </listeners>
+</suite>
